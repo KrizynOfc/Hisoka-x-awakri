@@ -353,6 +353,7 @@ async function startHisoka() {
         buttonText: butText,
         sections
         }
+	
         hisoka.sendMessage(jid, listMes, { quoted: quoted })
         }
 
@@ -452,6 +453,8 @@ async function startHisoka() {
             }
             }), options)
             hisoka.relayMessage(jid, template.message, { messageId: template.key.id })
+   
+    }
     }
 
     /**
